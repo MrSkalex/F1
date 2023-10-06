@@ -1,0 +1,111 @@
+body {
+    background-color: #9f9c9c  ;
+    color: white;
+    text-align: center;
+    margin: 0px ;
+    padding: 0px ;
+    border-image:round;
+}
+.sch1 {
+    color: black
+}
+ul.menu li a {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+ul.menu li a:hover {
+    color: #ff5733; /* Change color on hover */
+}
+
+ul.menu li {
+  border-right: 1px solid #555; /* Add a border between menu items */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Remove the border from the last menu item */
+ul.menu li:last-child {
+  border-right: none;
+}
+ul.menu li a {
+  transition: color 0.3s, background-color= 0.3s; /* Add background color transition */
+}
+
+ul.menu li a:hover {
+  color: #ff5733;
+  background-color: #000000; /* Change background color on hover */
+}
+/* Example for dropdown menu */
+ul.menu li ul {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  /* Add more styles as needed */
+}
+
+ul.menu li:hover ul {
+  display: block;
+}
+ /* Example media query for responsive menu */
+@media screen and (max-width: 768px) {
+  ul.menu {
+      flex-direction: column; /* Stack menu items vertically on small screens */
+  }
+}
+
+.sch1 {
+    text-align: left;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 75px;
+    font-family: fantasy;
+    margin: 0px;
+}
+
+.sch2   {
+    margin: 0px;
+    text-align: left;
+    color: black;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.lul {
+  background: #000;color: white;
+  
+}
+
+.t1 {
+  color:red;
+  font-family: fantasy;
+  font-size: larger;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 25px;
+
+}
+
+.t2 {
+  color:#000;
+  font-family: fantasy;
+  font-size: larger;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 55px ;
+}
+
+.t3 {
+  color: white;
+  background-color: black;
+  font-size: x-large;
+  font-family: fantasy;
+  padding: 20px;
+}
+
